@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>furly</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav container">
+            <a href="#" class="logo">
+                <img src="./img/logo.svg" alt="Логотип компании: furly">
+            </a>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Новинки</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Бестселлеры</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Одежда</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Обувь</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Аксессуары</a>
+                </li>
+            </ul>
+            <ul class="nav-icons">
+                <li class="nav-icon">
+                    <a href="#" class="nav-link">
+                        <img class="nav-entry" src="./img/entry.svg" alt="Entry">
+                    </a>
+                </li>
+                <li class="nav-icon">
+                    <a href="#" class="nav-link">
+                        <img class="nav-likes" src="./img/likes.svg" alt="Likes">
+                    </a>
+                </li>
+                <li class="nav-icon">
+                    <a href="#" class="nav-link">
+                        <img class="nav-card" src="./img/card.svg" alt="Card">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <div class="main-title-container">
+            <h1 class="main-title">Женская одежда</h1>
+        </div>
+        <div class="main-filters">
+            <ul class="filters-form">
+                <li><p class="main-filter-title">Категории</p></li>
+                <li><p class="main-filter-title">Категории</p></li>
+                <li><p class="main-filter-title">Категории</p></li>
+                <li><p class="main-filter-title">Категории</p></li>
+            </ul>
+        </div>
+        <section class="main-filters">
+            <form action="#" method="get" class="filters-form">
+                <label class="visually-hidden" for="category" name="category">Сортировать по категориям</label>
+                <!-- <p class="main-filter-title">Категории</p> -->
+                <select name="category" id="category" class="filter">
+                    <option value="category">Все</option>
+                </select>
+                <label class="visually-hidden" for="category" name="category">Сортировать по брендам</label>
+                <!-- <p class="main-filter-title">Бренд</p> -->
+                <select name="category" id="category" class="filter">
+                    <option value="category">Все</option>
+                </select>
+                <label class="visually-hidden" for="category" name="category">Сортировать по коллекции</label>
+                <!-- <p class="main-filter-title">Коллекция</p> -->
+                <select name="category" id="category" class="filter">
+                    <option value="category">Все</option>
+                </select>
+                <label class="visually-hidden" for="category" name="category">Сортировать по популярности</label>
+                <!-- <p class="main-filter-title">Сортировать по:</p> -->
+                <select name="category" id="category" class="filter">
+                    <option value="category">Популярности</option>
+                </select>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
